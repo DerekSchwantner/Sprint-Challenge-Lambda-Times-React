@@ -28,13 +28,9 @@ const Tabs = props => {
 };
 
 Tabs.propTypes = {
-  propData: PropTypes.arrayOf(
-    PropTypes.shape({
-      tabs: PropTypes.array,
-      selectedTab: PropTypes.string,
-      selectedTabHandler: PropTypes.func
-    })
-  )
+  tabs: PropTypes.array,
+  selectedTab: PropTypes.string,
+  selectedTabHandler: PropTypes.func
 };
 
 // Make sure to use PropTypes to validate your types!
